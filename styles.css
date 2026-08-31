@@ -92,20 +92,21 @@ h2 {
   color: var(--accent-dark);
 }
 
-.button:hover,
+.button:hover {
+  border-color: var(--accent-dark);
+  background: var(--accent-dark);
+}
+
 .button:focus-visible {
   border-color: var(--accent-dark);
   background: var(--accent-dark);
+  outline: 3px solid rgba(116, 58, 32, 0.35);
+  outline-offset: 3px;
 }
 
 .button.secondary:hover,
 .button.secondary:focus-visible {
   color: #fff;
-}
-
-.button:focus-visible {
-  outline: 3px solid rgba(116, 58, 32, 0.35);
-  outline-offset: 3px;
 }
 
 .prices,
