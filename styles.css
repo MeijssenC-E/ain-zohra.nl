@@ -142,7 +142,7 @@ footer a {
   margin: 0;
 }
 
-.hours div {
+.hours dl > div {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -150,7 +150,7 @@ footer a {
   border-bottom: 1px solid rgba(39, 31, 26, 0.12);
 }
 
-.hours div:last-child {
+.hours dl > div:last-child {
   border-bottom: 0;
 }
 
